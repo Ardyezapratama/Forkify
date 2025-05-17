@@ -84,7 +84,7 @@
 	}
 
 	&__user-generated {
-		background-color: darken($color: base.$color-grey-light-2, $amount: 2%);
+		background-color: adjust(base.$color-grey-light-2, -2%);
 
 		display: flex;
 		align-items: center;
