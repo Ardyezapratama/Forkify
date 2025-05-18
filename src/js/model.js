@@ -22,6 +22,6 @@ export const loadRecipe = async function (id) {
 		};
 	} catch (err) {
 		// Handel Errors
-		console.error(`${err} 💥💥💥`);
+		throw err;
 	}
 };
