@@ -31,3 +31,16 @@
 		}
 	}
 }
+
+.copyright {
+	color: base.$color-grey-dark-2;
+	font-size: 1.2rem;
+	padding: 0 3.5rem;
+	margin-top: 4rem;
+	text-align: center;
+
+	.twitter-link:link,
+	.twitter-link:visited {
+		color: base.$color-grey-dark-2;
+	}
+}
